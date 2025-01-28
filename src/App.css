@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust spacing between images */
+  margin: 20px 0;
+}
+
+.image-item img {
+  width: 100px;  /* Adjust size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+.footer {
+  text-align: center;
+  padding: 40px;
+  background: #f8f9fb;
+}
+
+.footer-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-content p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.learn-more, .get-started {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.learn-more {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.get-started {
+  background: #e63946;
+  color: white;
+  border-radius: 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.column h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.testmyskill{
+  align-items: center;
+  justify-content: center;
+}
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.new-badge {
+  background: #4caf50;
+  color: white;
+  font-size: 10px;
+  padding: 3px 6px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-bottom .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e63946;
+}
+
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+  color: #e63946;
+}
